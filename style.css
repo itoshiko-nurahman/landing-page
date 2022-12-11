@@ -1,0 +1,10 @@
+* {
+  display: flex;
+  font-family: sans-serif;
+}
+
+nav {
+  list-style: none;
+  justify-content: end;
+  align-items: center;
+}
