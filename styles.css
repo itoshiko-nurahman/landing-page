@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFD5E5;
+}
+
+#brand {
+  margin-left: 20px;
+}
+
+ul.nav-bar {
+  display: flex;
+  margin-right: 20px;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.first-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #FFFFDD;
+}
+
+.main p {
+  width: 450px;
+}
+
+img {
+  width: auto;
+  height: 250px;
+  border-radius: 50%;
+}
