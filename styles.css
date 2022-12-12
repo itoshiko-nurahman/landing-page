@@ -30,6 +30,7 @@ ul.nav-bar {
   font-size: 18px;
   font-weight: bold;
 }
+
 .first-page {
   display: flex;
   justify-content: space-around;
@@ -39,13 +40,21 @@ ul.nav-bar {
 }
 
 .main p {
+  font-size: 18px;
   width: 450px;
+}
+
+.main h1 {
+  font-size: 36px;
 }
 
 .first-page img {
   width: auto;
   height: 250px;
   border-radius: 50%;
+  border: rgba(0, 0, 0, 0.8) 1px solid;
+  padding: 20px;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.8);
 }
 
 .second-page {
@@ -88,11 +97,11 @@ ul.nav-bar {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: gray 4px 4px;
+  box-shadow: gray 4px 4px, 4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 
 .card img {
-  width: 200px;
+  width: 250px;
   height: auto;
   border-radius: 5% 10%;
 }
@@ -100,4 +109,55 @@ ul.nav-bar {
 .card p {
   text-justify: newspaper;
   font-size: 16px;
+}
+
+.third-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  background-image: url(https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 50%; */
+  font-size: 48px;
+  font-weight: 1000;
+  /* font-family: sans; */
+  padding: 0 5%;
+}
+
+#quote {
+  /* position: relative; */
+  /* position: inherit; */
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 48px;
+}
+
+#quote-container {
+  position: relative;
+  /* border: black 1px solid; */
+  /* margin-top: 1000px; */
+  top: -31%;
+  background-color: grey;
+  color: white;
+  /* margin: 0 30%; */
+  /* border-radius: 50px; */
+}
+
+#quotes-container {
+  background-color: white;
+  margin: 0 18%;
+  border-radius: 40px;
+  opacity: 80%;
 }
